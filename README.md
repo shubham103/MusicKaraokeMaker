@@ -12,7 +12,7 @@ $ pip install youtube_dl
 
 Folder structure
 
-+ --- songs/
+ --- songs/
    |
    -- output/
    |
@@ -22,8 +22,8 @@ Folder structure
 Commands to run 
 
 $ python3 downloadyt.py 
-------> it will ask for youtube url
-------> it will ask for output_file_name
+1) it will ask for youtube url
+2) it will ask for output_file_name
 
 $ mv song.mp3 songs/
 
