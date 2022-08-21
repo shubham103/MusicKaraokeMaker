@@ -6,8 +6,9 @@ With this project we can separate vocal and music from any youtube video song.
 
 Packages used
 
->> pip install spleeter
->> pip install youtube_dl
+>> pip3 install spleeter
+>> pip3 install youtube_dl
+>> pip3 install moviepy
 
 
 Folder structure
@@ -27,3 +28,6 @@ Commands to run
 >> mv song.mp3 songs/
 
 >> spleeter separate songs/song.mp3 -o output/
+
+
+>> python3 makevideo.py <imagename>.jpeg <audioname>.wav <outputfilename>.mp4
