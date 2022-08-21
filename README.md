@@ -12,9 +12,9 @@ $ pip install youtube_dl
 
 Folder structure
 
- songs/
- output/
- downloadyt.py
+-songs
+-output
+-downloadyt.py
 
 
 Commands to run 
